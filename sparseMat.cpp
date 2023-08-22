@@ -20,6 +20,15 @@ int main(){
              }
        }
     }
+    int i,j;
+    cin>>i>>j;
+    int l=(i-1)*i/2;
+    if(i<j){
+        cout<<"0 ";
+    }
+    else{
+        cout<<B[l+j]<<"\n";
+    }
     int r;
     cout<<"which row to print :";
     cin>>r;
